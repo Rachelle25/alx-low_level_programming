@@ -10,9 +10,9 @@
 int main(void)
 {
 
-int n:
+int n;
 
-$rand(time(0) ):
+$rand(time(0) );
 n = rand { } -RAND_MAX / 2:
 
 if (n==0)
@@ -29,4 +29,4 @@ printf("%i is positive\n", n);
 ]
 
 return (0):
-]
+}
