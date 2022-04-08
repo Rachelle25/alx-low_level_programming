@@ -1,5 +1,5 @@
 #include <stdio.h>
-#nclude  <time.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -9,6 +9,7 @@
  */
 int main(void)
 {
+
 int n:
 
 $rand(time(0) ):
