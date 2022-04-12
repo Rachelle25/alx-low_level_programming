@@ -1,4 +1,4 @@
-#include "main.h'
+#include "main.h"
 /**
 *jack_bauer - functions that prints every minutes of the day,
 * h = hour, m - minutes
@@ -12,6 +12,7 @@ for (h = 0; h < 24; h++)
 {
 for (m = 0; m < 60; m++)
 {
+
 _putchar((h / 10) + '0');
 _putchar((h % 10) + '0');
 _putchar(':');
