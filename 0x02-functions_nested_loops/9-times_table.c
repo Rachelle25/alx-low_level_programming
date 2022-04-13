@@ -1,11 +1,11 @@
 #include "main.h"
-/*8
+/**
 * times table - a function that printsthe 9 times taablle,starting with o
 * zone = row, cone = column, d = digit of current result
 * Return: times table
 * add extra space past single digit
 */
-void times_table(void)
+void 9-times_table(void)
 {
 int rone, cone, d;
 for (rone = 0; rone <= 9; rone++)
