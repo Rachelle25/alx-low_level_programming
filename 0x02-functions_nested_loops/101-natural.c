@@ -18,6 +18,6 @@ sum += c;
 }
 c++;
 }
-print("%i\n", sum);
+printf("%i\n", sum);
 return (0);
 }
