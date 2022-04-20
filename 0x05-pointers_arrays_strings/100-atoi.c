@@ -5,7 +5,7 @@
 * Return: Always 0
 */
 int _atoi(char *s)
-(
+{
 int i;
 int res = 0;
 int sig = -1;
@@ -25,3 +25,4 @@ break;
 }
 res = sig * res;
 return (res);
+}
