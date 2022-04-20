@@ -19,6 +19,3 @@ if (i % 2 == 0)
 }
 putchar('\n');
 
-}
-_putchar('\n');
-}
