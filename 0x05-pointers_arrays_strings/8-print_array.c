@@ -20,4 +20,5 @@ if (n > 0)
 	printf(",");
 }
 printf("\n");
+return (0);
 }
