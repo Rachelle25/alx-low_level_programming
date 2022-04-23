@@ -5,7 +5,7 @@
 * @src: A pointer to a character that will be changed
 * Return: dest
 */
-char *-strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 int i, j;
 i = 0;
