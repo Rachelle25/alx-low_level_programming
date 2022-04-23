@@ -1,15 +1,16 @@
 #include "main.h"
 /**
 * leet - encode into a string
-* @str: input value
+* @str: the string to encode
 *
-* Return: n value
+* Return: the encode string
 */
 char *leet(char *str)
 {
+
 int i, j;
-char c[] = "aAeEoOtTlL"
-char n[] = "4433007711"
+char c[] = "aAeEoOtTlL";
+char n[] = "4433007711";
 i = 0;
 while (str[i] != '\0')
 {
