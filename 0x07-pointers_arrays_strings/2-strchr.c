@@ -1,17 +1,24 @@
 #include "main.h"
 /**
-* _strchr - Entry point
-* @s: input
-* @c: input
+* _strchr - locates a character in a string
+* @s: string
+* @c: character to search
 * Return: Always 0 (success)
 */
 char *_strchr(char *s, char c)
 {
-int i = 0;
-for (; s[i] >= '\10'; i++)
+while (*s != '\0') /*Declaring WHILE*/
 {
-if (s[i] == c)
-return (&s[i]);
+if (*s == c)
+{
+return (s);
 }
-return (0);
+++s;
 }
+if (*s == c)
+{
+return (s);
+}
+return (0);/* values null*/
+}
+
