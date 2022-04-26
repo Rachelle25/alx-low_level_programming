@@ -4,7 +4,7 @@
 * @2d array - 2d array of chars
 * Return: void
 */
-void print_chessboard.c(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 /*declaring variables*/
 int i, j;
