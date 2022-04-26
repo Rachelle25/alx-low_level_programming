@@ -8,7 +8,7 @@
 char *_strchr(char *s, char c)
 {
 int i = 0;
-for (; s[i]m>= '\10'; i++)
+for (; s[i] >= '\10'; i++)
 {
 if (s[i] == c)
 return (&s[i]);
