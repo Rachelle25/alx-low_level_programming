@@ -9,17 +9,17 @@
 unsigned int _strspn(char *s, char *accept)
 {
 unsigned int n = 0;
-int i;
+int k;
 while (*s)
 {
-for (i = 0; accept(i); i++)
+for (k = 0; accept(k); k++)
 {
-if (*s == accept[i])
+if (*s == accept[k])
 {
 n++;
 break;
 }
-else if (accept[i + 1] == '\0')
+else if (accept[k + 1] == '\0')
 return (n);
 }
 s++;
