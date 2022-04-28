@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  sqrt_a - check the code
+* sqrt_a - check the code
 * @a: number
 * @b: number of power
 * Return: Always 0
@@ -15,10 +15,10 @@ else if (b * b > a)
 {
 return (-1);
 }
-return (sqrt-a(a, b + 1));
+return (sqrt_a(a, b + 1));
 }
 /**
-* _sqrt-recursion - check the code
+* _sqrt_recursion - check the code
 * @n: number
 *
 * Return: Always 0
