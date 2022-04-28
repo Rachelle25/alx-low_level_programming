@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _pow_recursion check the code
+* _pow_recursion - check the code
 * @x: number
 * @y: number of power
 * Return: Always 0.
@@ -15,5 +15,5 @@ else if (y == 0)
 {
 return (1);
 }
-return (x * _pow_recursion(x, y-1));
+return (x * _pow_recursion(x, y - 1));
 }
