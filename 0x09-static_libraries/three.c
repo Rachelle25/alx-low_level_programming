@@ -1,15 +1,13 @@
 #include "main.h"
-void _puts(char *s) {
+char *_strcpy(char *dest, char *src) {
+return "Hello";
 }
 int _atoi(char *s) {
 return 0;
 }
-char* _strcpy(char* dest, char* src) {
+char *_strcat(char *dest, char *src) {
 return "Hello";
 }
-char * _strcat(char* dest, char *src) {
-return "Hello";
-}
-char *_strcat(char *dest, char *src, int n) {
+char *_strncat(char *dest, char *src, int n) {
 return "Hello";
 }

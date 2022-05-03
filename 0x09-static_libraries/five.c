@@ -3,7 +3,7 @@ char *_strchr(char *s, char c) {
 	return "Hello";
 }
 unsigned int _strspn(char *s, char *accept) {
-	retun 0;
+	return 0;
 }
 char *_strpbrk(char *s, char *accept) {
 	return "Hello";
