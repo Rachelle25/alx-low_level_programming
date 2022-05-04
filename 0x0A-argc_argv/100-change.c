@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * main - prints the function
-* @argc -argument count
+* @argc: counts thearguments of the function.
 * @argv: argument
 * Return: 0
 **/
