@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
 *_strdup - returns a pointer to a newly allocated space
-*@str: pointer to as string
-*@size: size of the string
-*
+*@str: pointer to as string eing duplicated
+*pointer to dplicated atring
+*NULL if memory was insufficient.
 *Return: NULL
 */
 char *_strdup(char *str)
