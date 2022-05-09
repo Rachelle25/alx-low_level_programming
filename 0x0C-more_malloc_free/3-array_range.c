@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* _array_range - creates an array of integrs
+* array_range - creates an array of integers
 * @min: minimum
 * @max: maximum
 * Return: array
 */
-int *_array_range(int min, int max)
+int *array_range(int min, int max)
 {
 int *arr, i = 0, t = min;
 if (min > max)
