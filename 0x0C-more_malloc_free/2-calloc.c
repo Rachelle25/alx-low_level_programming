@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _calloc - pointer to the allocated memory
-* @nmemb - number of element in the array
+* @nmemb - nmemb number of element in the array
 * @size: bytes for each position in the array
 * Return: pointer void
 */
