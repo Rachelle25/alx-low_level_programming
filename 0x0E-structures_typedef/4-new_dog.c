@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
-* copy - a copy argument
+* _copy - a copy argument
 * @src: data to copy
 * Return: pointer
 */
