@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* free_lists - free a list
+* free_list - free a list
 * @head: head of the inked list
 * Return: no return.
 */
