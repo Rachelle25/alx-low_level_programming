@@ -5,14 +5,14 @@
 *
 * Return: number of nodes
 */
-size_t print_listint(const listint *h)
+size_t print_listint(const listint_t *h)
 {
-size_t numb = 0;
-while (h != NULL)
-{
-Printf("%d\n", h->n);
-h = h->next;
-numb++;
-}
-return (numb);
+	size_t numb = 0;
+	while (h != NULL)
+	{
+		Printf("%d\n", h->n);
+		h = h->next;
+		numb++;
+	}
+	return (numb);
 }
