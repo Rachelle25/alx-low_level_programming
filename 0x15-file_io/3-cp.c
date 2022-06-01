@@ -1,4 +1,4 @@
-#include "main.h"
+ #include "main.h"
 
 /**
 * main - copies the content
@@ -39,7 +39,7 @@ exit(98);
 }
 if (close(f1) < 0)
 {
-dprintf(STDERR_FILENO, "Error: Cant close fd %d\n", f1);
+dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f1);
 exit(100);
 }
 if (close(f2) < 0)
