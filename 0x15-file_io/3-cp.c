@@ -28,13 +28,13 @@ while ((n = read(f1, buf, 1024)) > 0)
 {
 if (write(f2, buf, n) != n || f2 == -1)
 {
-dprintf(STDERR_FILENO, "Error: cant write to %s\n", argv[2]);
+dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 exit(99);
 }
 }
 if (n == -1)
 {
-dprint(STDERR_FILENO, "Error: Cant read from file %s\n", argv[1]);
+dprint(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
 if (close(f1) < 0)
