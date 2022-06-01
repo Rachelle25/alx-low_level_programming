@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * read_textfile - reads a textfile and prints it it
 * @filename: pointer to text in a file
