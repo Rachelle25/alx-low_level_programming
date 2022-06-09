@@ -1,17 +1,19 @@
 #include "lists.h"
 /**
-* listint_len - returns the num of elements
-* @h: linked list of type listint_t to transverse
+* print_listint - prints all elements of a list
+* @h: head of a list
 *
-* Return: number of nodes
+* Return: number of nnodes.
 */
-size_t listint_len(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
-size_t num = 0;
-while (h)
+size_t nnodes = 0;
+while (h != NULL)
 {
-num++;
+printf("%d\n", h->n);
 h = h->next;
+nnodes++;
 }
-return (num);
+return (nnodes);
 }
+
